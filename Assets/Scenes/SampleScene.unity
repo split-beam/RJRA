@@ -536,7 +536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.14529935, y: -0, z: -0, w: 0.98938775}
-  m_LocalPosition: {x: 0, y: 5.36, z: -21.89}
+  m_LocalPosition: {x: 0, y: 4.74, z: -19.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 491379477}
@@ -609,6 +609,18 @@ PrefabInstance:
     - target: {fileID: 1510365144094047, guid: 7fb18c3ce19117c4f9a6a276c9b94f51, type: 3}
       propertyPath: yRange
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510365144094047, guid: 7fb18c3ce19117c4f9a6a276c9b94f51, type: 3}
+      propertyPath: controlRollFactor
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510365144094047, guid: 7fb18c3ce19117c4f9a6a276c9b94f51, type: 3}
+      propertyPath: positionYawFactor
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510365144094047, guid: 7fb18c3ce19117c4f9a6a276c9b94f51, type: 3}
+      propertyPath: controlPitchFactor
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 441678920330911041, guid: 7fb18c3ce19117c4f9a6a276c9b94f51, type: 3}
       propertyPath: m_Name
