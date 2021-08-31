@@ -272,6 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlSpeed: 30
+  xRange: 10
 --- !u!1 &442003280760116957
 GameObject:
   m_ObjectHideFlags: 0
