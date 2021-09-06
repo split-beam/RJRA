@@ -15,12 +15,13 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] private float rotationFactor;
 
+
     float xthrow, ythrow;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -28,6 +29,7 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
 
     void ProcessTranslation()
@@ -63,5 +65,17 @@ public class PlayerControls : MonoBehaviour
         // here, we use Quaternion.RotateTowards from the current rotation
         // to the target rotation. NOTE that the rotationFactor has to be small, such as 1, otherwise the rotation will be too fast and will be janky.
         transform.localRotation = Quaternion.RotateTowards(transform.localRotation, targetRotation, rotationFactor);
+    }
+
+    void ProcessFiring()
+    {
+        if(Input.GetButton("Fire1"))
+        {
+            Debug.Log("Fire");
+        }
+        else
+        {
+            return;
+        }
     }
 }
