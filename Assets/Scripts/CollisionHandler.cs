@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class CollisionHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        Debug.Log($"{this.name} **Collided With** {collision.gameObject.name}");
+        //Debug.Log(this.name + "--Collided With--" + collision.gameObject.name);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
