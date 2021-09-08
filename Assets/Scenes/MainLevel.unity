@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 04046bd9da21da84791bb14f209287ac, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &124809967 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 317264083861576636, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-  m_PrefabInstance: {fileID: 4350983399426762981}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &491379476 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4350983399641314289, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
@@ -207,7 +202,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.2e-44, y: 5.5e-44, z: 2.4e-44, w: 5.7e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -315,6 +310,7 @@ GameObject:
   - component: {fileID: 952944473}
   - component: {fileID: 952944472}
   - component: {fileID: 952944471}
+  - component: {fileID: 952944476}
   m_Layer: 0
   m_Name: EnemyPlaceHolder
   m_TagString: Untagged
@@ -417,11 +413,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1020952804 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7459700570298936456, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-  m_PrefabInstance: {fileID: 4350983399426762981}
+--- !u!114 &952944476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952944470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac7fbdbe4d5cd44e8857a3e0fb16b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1236987078
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,26 +593,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1566785894892076102, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
+    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.ctime3
+      value: 41249
       objectReference: {fileID: 0}
-    - target: {fileID: 3936379976773774019, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
+    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.ctime4
+      value: 49151
       objectReference: {fileID: 0}
-    - target: {fileID: 4197606615730238885, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: lasers.Array.size
-      value: 2
+    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.ctime5
+      value: 57440
       objectReference: {fileID: 0}
-    - target: {fileID: 4197606615730238885, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: lasers.Array.data[0]
-      value: 
-      objectReference: {fileID: 1020952804}
-    - target: {fileID: 4197606615730238885, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: lasers.Array.data[1]
-      value: 
-      objectReference: {fileID: 124809967}
+    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.ctime6
+      value: 60716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.m_NumColorKeys
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4350983399641314288, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -620,11 +623,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4350983399641314288, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 146.53
+      value: 147.7
       objectReference: {fileID: 0}
     - target: {fileID: 4350983399641314288, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.32
+      value: 35.9
       objectReference: {fileID: 0}
     - target: {fileID: 4350983399641314288, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
       propertyPath: m_LocalRotation.w
