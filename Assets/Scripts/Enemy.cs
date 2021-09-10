@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
 
     ScoreBoad scoreBoad;
     GameObject parentGameObject;
+    
 
     void Start()
     {
