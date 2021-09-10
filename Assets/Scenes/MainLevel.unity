@@ -1520,6 +1520,63 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5688653928584279703, guid: 39dab1b4bab098c4ab2838349e157481, type: 3}
   m_PrefabInstance: {fileID: 7695088471963685833}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1907041325601409968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1614648655270069405, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_Name
+      value: PostProcessing
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.44672
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 141.0476
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.11297
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201047162118909290, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5b9c9ab4438be040ae19e7ea862b311, type: 3}
 --- !u!1001 &2402703214856966339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1653,34 +1710,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1566785894892076102, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: m_Size.x
-      value: 9.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1566785894892076102, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: m_Size.z
-      value: 8.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.ctime3
-      value: 41249
-      objectReference: {fileID: 0}
-    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.ctime4
-      value: 49151
-      objectReference: {fileID: 0}
-    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.ctime5
-      value: 57440
-      objectReference: {fileID: 0}
-    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.ctime6
-      value: 60716
-      objectReference: {fileID: 0}
-    - target: {fileID: 4350983398740659566, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.m_NumColorKeys
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4350983399641314288, guid: eb1db2e692f34d14494e1a3f00164246, type: 3}
       propertyPath: m_RootOrder
       value: 1
