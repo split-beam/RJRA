@@ -11,5 +11,9 @@ public class MusicPlayer : MonoBehaviour
         {
             Destroy(gameObject); //Destroy Instance
         }
+        else
+        {
+            DontDestroyOnLoad(gameObject); //gameObject == Self
+        }
     }
 }
